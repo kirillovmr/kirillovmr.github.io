@@ -16,24 +16,6 @@ html {
     height: 115vh;
 }
 
-.bg-ash {
-    background: #606c88;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.bg-titanium {
-    background: #283048;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.bg-midnight {
-    background: #232526;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 .bg-mirage {
     background: #16222A;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
@@ -65,33 +47,12 @@ a:hover {
 }
 
 @media (min-height: 576px) {
-    img {
-        width: 220px;
-    }
-
-    h1 {
-        font-size: 2.5em;
-        margin: 20px;
-    }
-
-    i {
-        font-size: 1.9em;
-        margin: 0 8px;
-    }
+    img { width: 220px; }
+    h1 { font-size: 2.5em; margin: 20px; }
+    i { font-size: 1.9em; margin: 0 8px; }
 }
-
 @media (min-width: 576px) and (min-height: 500px) {
-    img {
-        width: 240px;
-    }
-
-    h1 {
-        font-size: 3em;
-        margin: 20px;
-    }
-
-    i {
-        font-size: 2.2em;
-        margin: 0 10px;
-    }
+    img { width: 240px; }
+    h1 { font-size: 3em; margin: 20px; }
+    i { font-size: 2.2em; margin: 0 10px; }
 }
