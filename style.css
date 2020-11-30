@@ -1,0 +1,65 @@
+html, body {
+    height: 100vh;
+}
+
+.bg-ash {
+    background: #606c88;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-titanium {
+    background: #283048;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-midnight {
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-mirage {
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+img {
+    width: 200px;
+    padding: 5px;
+    box-shadow: 0 0 0 2px #00000021, inset 0 0 0px 4px rgb(42 69 83), inset 0 0 0px 5px #2f2f2f;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+i {
+    font-size: 1.8em;
+    margin: 0 10px;
+}
+
+a, a:visited {
+    color: white;
+}
+a:hover {
+    color: rgb(192, 192, 192);
+}
+
+@media (min-width: 576px) {
+    img {
+        width: 240px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    i {
+        font-size: 2.2em;
+    }
+}
